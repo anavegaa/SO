@@ -171,3 +171,6 @@ func main() {
 		fmt.Println("Modo no válido. Usa 'secuencial' o 'paralelo'")
 	}
 }
+
+//Juan DIego Calderon Bermeo 1000378849
+//Ana Maria Vega Angarita 1004945529

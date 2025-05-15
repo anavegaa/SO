@@ -153,7 +153,7 @@ func main() {
 		elapsed := time.Since(start).Seconds()
 		writeMatrix("go_seq.txt", C)
 		fmt.Printf("Resultado secuencial guardado en go_seq.txt\n")
-		fmt.Printf("Tiempo secuencial: %.4f segundos\n", elapsed)
+		fmt.Printf("Tiempo secuencial: %.10f segundos\n", elapsed)
 
 	case "paralelo":
 		reader, writer := io.Pipe()
